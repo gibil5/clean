@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- Stock Move --> 
+        <record model="ir.actions.act_window" id="stock_move_list_action">
+            <field name="name">AIL</field>
+            <field name="res_model">stock.move</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
+
+        <!-- Procurement Order --> 
+        <record model="ir.actions.act_window" id="procurement_order_list_action">
+            <field name="name">AIL</field>
+            <field name="res_model">procurement.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
+
+        <!-- Product Template - Consu --> 
+        <record model="ir.actions.act_window" id="product_template_consu_list_action">
+            <field name="name">Todos Consu</field>
+            <field name="res_model">product.template</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+
+            <field name="domain">[              
+                                    ('type', 'in', ['consu']),
+                                ]</field>
+
+            <field name="limit">500</field>
+        </record>
+
+
+
+
+    </data>
+</openerp>

@@ -1,0 +1,110 @@
+<openerp>
+	<data>
+
+
+<record 
+		id="hide" model="res.groups">
+		<field name="name">Hide</field>
+		<field name="comment">Hide.</field>
+</record>
+
+
+<!--
+	name="Employees"
+
+	groups="base.group_hr_manager,base.group_hr_user,base.group_user"
+
+	sequence="75"
+	groups="openhealth.roots"
+-->
+
+<!-- Top menu item -->
+<menuitem 
+
+	name="Employees - CL"
+
+	id="hr.menu_hr_root"
+
+	groups="hide"
+
+	icon="fa-user"
+
+	web_icon="hr,static/description/icon.png"
+
+	sequence="-100"
+	/>
+
+
+<menuitem 
+	id="hr.menu_hr_reporting_timesheet" 
+	name="Reports - CL" 
+	parent="hr.menu_hr_root" 
+	sequence="99" 
+	groups="base.group_hr_manager,base.group_hr_user"
+/>
+
+<menuitem 
+	id="hr.menu_human_resources_configuration" 
+	name="Configuration - CL" 
+	parent="hr.menu_hr_root" 
+	sequence="100" 
+
+	groups="hide"
+/>
+
+<menuitem
+
+	name="Departments - CL" 
+
+	action="hr.open_module_tree_department"
+	id="hr.menu_hr_department_tree"
+	parent="hr.menu_hr_root"
+	sequence="1"
+
+	groups="hide"
+/>
+
+
+<menuitem 
+
+	name="Employees - CL" 
+
+	action="hr.open_view_employee_list_my" 
+	id="hr.menu_open_view_employee_list_my" 
+	sequence="3" 
+	parent="hr.menu_hr_root"
+
+	groups="hide"
+/>
+
+
+
+
+<!--
+
+
+<menuitem 
+	action="open_view_categ_form" 
+	id="menu_view_employee_category_form"
+	parent="menu_human_resources_configuration" 
+	sequence="1" 
+	groups="base.group_no_one"
+/>
+
+
+
+
+<menuitem 
+	id="menu_hr_main" 
+	parent="menu_hr_root" 
+	name="Human Resources" 
+	sequence="0"
+/>
+
+-->
+
+
+
+
+	</data>
+</openerp>

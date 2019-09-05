@@ -1,0 +1,39 @@
+<openerp>
+	<data>
+
+
+<!--
+-->
+<menuitem 
+	
+	id="base.menu_config_address_book" 
+	
+	parent="base.menu_sale_config" 
+	
+	name="Contacts - CL" 
+	
+	sequence="4" 
+	
+	groups="base.group_system"
+/>
+
+
+
+
+
+<!-- Top menu item -->
+<!--
+<menuitem name="Sales"
+    id="menu_base_partner"
+    groups="base.group_sale_salesman"
+    sequence="6"/>
+-->
+<!-- This menu will disappear, I commented it for tests purpose -->
+<!--
+<menuitem id="base.menu_sale_config" name="Configuration" parent="base.menu_base_partner"
+    sequence="100" groups="base.group_configuration"/>
+-->
+
+
+	</data>
+</openerp>

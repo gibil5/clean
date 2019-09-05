@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+
+<!--
+				groups="openhealth.roots"
+-->
+
+<!-- Main - DEV -->
+<menuitem   	id="main_clean_menu"
+
+				sequence="-76"
+
+				name="CLEAN"
+		/>
+
+
+		<!-- DEV --> 
+		<menuitem   id="parent_clean_menu" 
+
+							name="Clean System"
+			
+							parent="main_clean_menu"
+
+							sequence="1"
+						/>
+
+
+
+
+		<!-- Procurement Orders --> 
+		<menuitem   id="clean_procurement_order_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="15"
+
+					name="Procurement Orders"
+
+					action="procurement_order_list_action"
+				/>
+<!--
+procurement.order
+-->
+
+		<!-- Stock Moves --> 
+		<menuitem   id="clean_stock_move_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="16"
+
+					name="Stock Moves"
+
+					action="stock_move_list_action"
+				/>
+<!--
+stock.move
+-->
+
+
+
+		<!-- Product Template --> 
+		<menuitem   id="clean_product_template_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="17"
+
+					name="Product Template Consu"
+
+					action="product_template_consu_list_action"
+				/>
+<!--
+product.template
+-->
+
+
+
+
+
+	</data>
+</openerp>
