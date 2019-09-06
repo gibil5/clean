@@ -43,6 +43,8 @@
 		#$'views/menus_res.xml',
 
 
+		'views/container.xml',
+
 		'views/actions.xml',
 		'views/menus_dev.xml',
 	],

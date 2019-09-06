@@ -29,6 +29,25 @@
 
 
 
+		<!-- Containers --> 
+		<menuitem   id="clean_container_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="11"
+
+					name="Containers"
+
+					action="container_list_action"
+				/>
+<!--
+clean.container
+-->
+
+
+
+
+
 		<!-- Procurement Orders --> 
 		<menuitem   id="clean_procurement_order_menu"
 

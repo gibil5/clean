@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+
+
+
+
+<!-- FORM --> 
+		<record model="ir.ui.view" id="container_form_view">
+
+			<field name="name">container.form</field>
+
+			<field name="model">clean.container</field>
+
+			<field name="arch" type="xml">
+
+				<form string="container Form">
+
+					<!-- Header -->
+					<header>
+
+<!-- Left -->
+                        <!-- Update -->
+                        <button 
+                                type="object"
+                                class="oe_highlight"
+
+                                name="encode_error"
+
+                                string="Encode Error"
+                        />
+
+					</header>
+
+
+
+					<!-- Sheet -->  
+					<sheet>
+
+                        <!-- Padding -->
+                        <group>
+                            <group>
+                                <field name="name"/>
+                            </group>
+                            <group>
+                            </group>
+                        </group>
+
+
+                        <!-- Notebook --> 
+<!--
+                        <notebook>  
+                            <page string="Products">
+                            </page>
+                        </notebook>
+-->
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+
+    </data>
+</openerp>
