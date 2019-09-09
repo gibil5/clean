@@ -28,7 +28,7 @@
 				</xpath>
 
 
-				<xpath expr="//button[@name='update_doctors']" position="after">
+				<xpath expr="//button[@name='update_doctors']" position="replace">
 
 						<!-- CL - Update Doctors -->
 						<button 
@@ -37,7 +37,7 @@
 
 								name="cl_update_doctors"
 								
-								string="Analisis Doctor - CL"
+								string="Analisis Doctor - CORR"
 						/>
 				</xpath>
 
