@@ -1,0 +1,44 @@
+
+		
+		<!-- Search and Change -->
+		<record model="ir.ui.view" id="management_form_view">
+
+			<field name="name">clean.management.form</field>
+			
+			<field name="model">openhealth.management</field>
+			
+
+
+			<field name="inherit_id" ref="openhealth.management_form_view"/>   
+			
+
+			<field name="mode">primary</field>
+
+			<field name="priority">1</field>
+			
+			<field name="arch" type="xml">
+
+
+				<xpath expr="//button[@name='update_doctors']" position="after">
+
+						<!-- CL - Update Doctors -->
+						<button 
+								type="object" 
+								class="oe_highlight"
+
+								name="cl_update_doctors"
+								
+								string="Analisis Doctor - CL"
+						/>
+				</xpath>
+
+
+			</field>
+		</record>
+
+
+
+<!--
+				<xpath expr="//field[@name='x_test_scenario']" position="after">
+				</xpath>
+-->

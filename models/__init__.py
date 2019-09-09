@@ -6,4 +6,4 @@ from . import models
 
 from . import container
 
-from . import manager
+from . import management

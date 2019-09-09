@@ -523,24 +523,7 @@
 			"file": "__openerp__.py",
 			"settings":
 			{
-				"buffer_size": 1095,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "readme.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "models/manager.py",
-			"settings":
-			{
-				"buffer_size": 4987,
+				"buffer_size": 1123,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -549,7 +532,34 @@
 			"file": "models/__init__.py",
 			"settings":
 			{
-				"buffer_size": 121,
+				"buffer_size": 124,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/management.py",
+			"settings":
+			{
+				"buffer_size": 7395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/management.xml",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/manager.TRASH.xml",
+			"settings":
+			{
+				"buffer_size": 791,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -568,68 +578,6 @@
 			"settings":
 			{
 				"buffer_size": 2373,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "models/models.py",
-			"settings":
-			{
-				"buffer_size": 381,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/menus_dev.xml",
-			"settings":
-			{
-				"buffer_size": 1318,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/actions.xml",
-			"settings":
-			{
-				"buffer_size": 2598,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "models/stock_move.py",
-			"settings":
-			{
-				"buffer_size": 150,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/menus_dev.TRASH.xml",
-			"settings":
-			{
-				"buffer_size": 917,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/menus_res.xml",
-			"settings":
-			{
-				"buffer_size": 577,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/menus_hr.xml",
-			"settings":
-			{
-				"buffer_size": 1451,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -708,6 +656,17 @@
 	},
 	"file_history":
 	[
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/management.xml.",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/models/manager.py",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/manager.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/models/models.py",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus_dev.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/actions.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/models/stock_move.py",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus_dev.TRASH.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus_hr.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus_res.xml",
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/readme.txt",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/models/__init__.py",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus.xml",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/__init__.py",
@@ -824,18 +783,7 @@
 		"/Users/gibil/cellar/github/price_list/views/product/pricelist_container.xml",
 		"/Users/gibil/cellar/github/price_list/views/product/pricelist_container.TRASH.xml",
 		"/Users/gibil/cellar/github/price_list/views/order/order.xml",
-		"/Users/gibil/cellar/github/price_list/models/product/pricelist_container.TRASH.py",
-		"/Users/gibil/cellar/github/price_list/models/management/management.py",
-		"/Users/gibil/cellar/github/price_list/models/product/px_vars.py",
-		"/Users/gibil/cellar/github/price_list/models/lib/sys_funcs.py",
-		"/Users/gibil/cellar/github/price_list/views/containers.xml",
-		"/Users/gibil/cellar/github/price_list/models/product/__init__.py",
-		"/Users/gibil/cellar/github/price_list/models/patient/patient.py",
-		"/Users/gibil/cellar/github/price_list/models/marketing/mkt_vars.py",
-		"/Users/gibil/cellar/github/price_list/models/product/pl_prod_vars.py",
-		"/Users/gibil/cellar/github/price_list/models/patient/patient.TRASH.py",
-		"/Users/gibil/cellar/github/price_list/models/management/exc_mgt.py",
-		"/Users/gibil/cellar/github/price_list/views/patient/patient_personal.xml"
+		"/Users/gibil/cellar/github/price_list/models/product/pricelist_container.TRASH.py"
 	],
 	"find":
 	{
@@ -850,15 +798,17 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"update_fields",
+			"mode",
 			"idx",
 			"dev_",
 			"_dev_"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -870,13 +820,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -885,15 +835,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1095,
+						"buffer_size": 1123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								165,
-								165
+								270,
+								270
 							]
 						],
 						"settings":
@@ -903,84 +853,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 287.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "readme.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "models/manager.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4987,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								316,
-								316
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "models/__init__.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								120,
-								120
+								123,
+								123
 							]
 						],
 						"settings":
@@ -995,7 +888,94 @@
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "models/management.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7079,
+								7092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/management.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1338,
+								1338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 647.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
 					"buffer": 4,
+					"file": "views/manager.TRASH.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "models/container.py",
 					"semi_transient": false,
 					"settings":
@@ -1020,11 +1000,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "views/container.xml",
 					"semi_transient": false,
 					"settings":
@@ -1036,8 +1016,8 @@
 						"selection":
 						[
 							[
-								551,
-								573
+								2350,
+								2373
 							]
 						],
 						"settings":
@@ -1047,211 +1027,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 202.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "models/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 381,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "views/menus_dev.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "views/actions.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								197,
-								197
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 19.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "models/stock_move.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								150
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "views/menus_dev.TRASH.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "views/menus_res.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 577,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "views/menus_hr.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
 					"type": "text"
 				}
 			]

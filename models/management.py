@@ -8,21 +8,146 @@
 """
 from __future__ import print_function
 
+from timeit import default_timer as timer
+
 from openerp import models, fields, api
+
+from openerp.addons.price_list.models.management import exc_mgt, mgt_funcs
 
 class Management(models.Model):
 	"""
 	Correct Errors
 		- Create Doctor Data
 	"""
+	#_inherit = 'openhealth.management'
 	_inherit = 'openhealth.management'
 
 
 
-# ----------------------------------------------------------- Create Doctor Data ------------
-	def create_doctor_data(self, doctor_name, orders):
+	mode = fields.Char()
+
+
+# ----------------------------------------------------------- Update Doctors - Button ----------------------
+	@api.multi
+	#def update_doctors(self):
+	def cl_update_doctors(self):
+		"""
+		CL - Update Doctors
+		"""
 		print()
-		print('Create Doctor Data - Corrected')
+		#print('Update Doctors')
+		print('CL - Update Doctors')
+
+
+		# Handle Exceptions
+		exc_mgt.handle_exceptions(self)
+
+
+		# Go
+		t0 = timer()
+
+		#self.pl_update_sales_by_doctor()
+		self.cl_update_sales_by_doctor()
+		
+		#self.update_stats()
+		self.pl_update_stats()
+		t1 = timer()
+		self.delta_doctor = t1 - t0
+
+	# update_doctors
+
+
+
+
+
+# ----------------------------------------------------------- Update Sales - By Doctor ------------
+
+	#def pl_update_sales_by_doctor(self):
+	def cl_update_sales_by_doctor(self):
+		"""
+		CL - Update Sales
+		"""
+		print()
+		print('CL - Update Sales By Doctor')
+
+
+		# Clean - Important 
+		self.doctor_line.unlink()
+
+
+		# Init vars
+		total_amount = 0
+		total_count = 0
+		total_tickets = 0
+
+
+
+		# Doctors Inactive
+		doctors_inactive = self.env['oeh.medical.physician'].search([
+																	#('x_type', 'in', ['emr']),
+																	('active', '=', False),
+															],
+															#order='date_begin,name asc',
+															#limit=1,
+													)
+		#print(doctors_inactive)
+
+
+		# Doctors Active
+		doctors_active = self.env['oeh.medical.physician'].search([
+																	#('x_type', 'in', ['emr']),
+																	('active', '=', True),
+															],
+															#order='date_begin,name asc',
+															#limit=1,
+													)
+		#print(doctors_active)
+
+
+
+		doctors = doctors_inactive + doctors_active
+		#print(doctors)
+
+
+		# Create Sales - By Doctor
+		for doctor in doctors:
+			#print(doctor.name)
+			#print(doctor.active)
+
+			# Clear
+			#doctor.order_line.unlink()
+
+			# Orders
+			# Must include Credit Notes
+			orders, count = mgt_funcs.get_orders_filter_by_doctor(self, self.date_begin, self.date_end, doctor.name)
+			#print(orders)
+			#print(count)
+
+
+			if count in [0]:
+				#print()
+				jx = 5
+			else:
+
+				#print('Gotcha')
+				#self.create_doctor_data(doctor.name, orders)
+				self.cl_create_doctor_data(doctor.name, orders)
+
+
+
+			#print()
+
+
+	# update_sales_by_doctor
+
+
+
+
+# ----------------------------------------------------------- Create Doctor Data ------------
+	#def create_doctor_data(self, doctor_name, orders):
+	def cl_create_doctor_data(self, doctor_name, orders):
+		print()
+		print('CL - Create Doctor Data - Corrected')
 
 
 		# Init Loop

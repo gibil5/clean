@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+
+
+<!-- FORM -->
+		<record model="ir.ui.view" id="view_management_form">
+			
+			<field name="name">openhealth.management.form</field>
+			
+			<field name="model">openhealth.management</field>          
+			
+			<field name="inherit_id" ref="openhealth.management_form_view"/>   
+
+			<field name="mode">primary</field>
+
+			<field name="priority">1</field>
+
+			<field name="arch" type="xml">
+
+
+				<!-- Name --> 
+				<xpath expr="//field[@name='name']" position="after">
+
+					<field  name="vspace"/>
+
+				</xpath>
+
+
+				<xpath expr="//button[@name='update_doctors']" position="after">
+
+						<!-- CL - Update Doctors -->
+						<button 
+								type="object" 
+								class="oe_highlight"
+
+								name="cl_update_doctors"
+								
+								string="Analisis Doctor - CL"
+						/>
+				</xpath>
+
+
+
+			</field>
+		</record>
+		<!-- Form - END -->
+
+
+
+	</data>
+</openerp>

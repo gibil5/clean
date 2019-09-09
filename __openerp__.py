@@ -48,6 +48,9 @@
 		#$'views/menus_res.xml',
 
 
+		'views/management.xml',
+
+
 		'views/container.xml',
 
 		'views/actions.xml',
