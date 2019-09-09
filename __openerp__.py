@@ -8,11 +8,15 @@
 	
 	'description': """
 
-        5 Sep 2019
+        9 Sep 2019
 
-		For Openhealth system. Matrix Object Oriented. 
-		Cleans:
-			- HR 
+		Fixes:
+			- Procurement Orders,
+			- Stock Moves.
+
+		Reproduces Errors:
+			- Encoding Error.
+
 	""",
 
 
@@ -30,7 +34,8 @@
 	# any module necessary for this one to work correctly
 	#'depends': ['base'],
 	#'depends': ['base', 'hr'],
-    'depends': ['base', 'oehealth'],
+    #'depends': ['base', 'oehealth'],
+    'depends': ['base', 'oehealth', 'openhealth'],
 
 
 

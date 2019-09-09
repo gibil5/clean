@@ -21,14 +21,45 @@
 					<header>
 
 <!-- Left -->
-                        <!-- Update -->
+                        <!-- Encode Error -->
                         <button 
                                 type="object"
                                 class="oe_highlight"
 
-                                name="encode_error"
+                                name="reproduce_encode_error"
 
-                                string="Encode Error"
+                                string="REPRODUCE Encode Error"
+                        />
+
+                        <!-- Fix Procurement Orders -->
+                        <button 
+                                type="object"
+                                class="oe_highlight"
+
+                                name="fix_procurements"
+
+                                string="FIX Procurement Orders"
+                        />
+
+
+                        <!-- Fix Stock Moves -->
+                        <button 
+                                type="object"
+                                class="oe_highlight"
+
+                                name="fix_stock"
+
+                                string="FIX Stock Moves"
+                        />
+
+                        <!-- Validate Product Templates -->
+                        <button 
+                                type="object"
+                                class="oe_highlight"
+
+                                name="validate_product_templates"
+
+                                string="VALIDATE Product Templates"
                         />
 
 					</header>

@@ -523,7 +523,33 @@
 			"file": "__openerp__.py",
 			"settings":
 			{
-				"buffer_size": 1016,
+				"buffer_size": 1095,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/manager.py",
+			"settings":
+			{
+				"buffer_size": 4987,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/__init__.py",
+			"settings":
+			{
+				"buffer_size": 121,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +558,7 @@
 			"file": "models/container.py",
 			"settings":
 			{
-				"buffer_size": 341,
+				"buffer_size": 2661,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,7 +567,7 @@
 			"file": "views/container.xml",
 			"settings":
 			{
-				"buffer_size": 1282,
+				"buffer_size": 2373,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -558,7 +584,7 @@
 			"file": "views/menus_dev.xml",
 			"settings":
 			{
-				"buffer_size": 1287,
+				"buffer_size": 1318,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -827,6 +853,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"idx",
 			"dev_",
 			"_dev_"
 		],
@@ -836,6 +863,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"count",
 			"clean_",
 			"_clean_"
 		],
@@ -848,7 +876,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -857,15 +885,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1016,
+						"buffer_size": 1095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								881,
-								881
+								165,
+								165
 							]
 						],
 						"settings":
@@ -875,27 +903,112 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 333.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "models/container.py",
+					"file": "readme.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/manager.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "models/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models/container.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								65
 							]
 						],
 						"settings":
@@ -911,20 +1024,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "views/container.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1282,
+						"buffer_size": 2373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1163,
-								1163
+								551,
+								573
 							]
 						],
 						"settings":
@@ -934,14 +1047,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 397.0,
+						"translation.y": 202.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "models/models.py",
 					"semi_transient": false,
 					"settings":
@@ -969,20 +1082,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "views/menus_dev.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1287,
+						"buffer_size": 1318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								540
+								205,
+								205
 							]
 						],
 						"settings":
@@ -991,14 +1104,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 511.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "views/actions.xml",
 					"semi_transient": false,
 					"settings":
@@ -1024,11 +1137,11 @@
 						"translation.y": 19.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "models/stock_move.py",
 					"semi_transient": false,
 					"settings":
@@ -1052,11 +1165,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "views/menus_dev.TRASH.xml",
 					"semi_transient": false,
 					"settings":
@@ -1081,11 +1194,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "views/menus_res.xml",
 					"semi_transient": false,
 					"settings":
@@ -1109,11 +1222,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "views/menus_hr.xml",
 					"semi_transient": false,
 					"settings":
@@ -1138,7 +1251,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1195,7 +1308,7 @@
 	"project": "Clean.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":

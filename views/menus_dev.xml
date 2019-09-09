@@ -13,6 +13,8 @@
 				sequence="-76"
 
 				name="CLEAN"
+
+				groups="openhealth.roots"
 		/>
 
 
