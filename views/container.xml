@@ -75,6 +75,7 @@
                                 <field name="name"/>
                             </group>
                             <group>
+                                <field name="limit"/>
                             </group>
                         </group>
 

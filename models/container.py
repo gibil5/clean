@@ -8,10 +8,16 @@ class Container(models.Model):
 
 	_name = 'clean.container'
 
-	#_inherit = 'stock.move'
 
+
+# ----------------------------------------------------------- Reproduce Errors ------------------------
 
 	name = fields.Char()
+
+	limit = fields.Integer()
+
+
+
 
 
 # ----------------------------------------------------------- Reproduce Errors ------------------------
@@ -41,6 +47,7 @@ class Container(models.Model):
 		print()
 		print('Fix procurement orders')
 
+		print(self.limit)
 
 		procs = self.env['procurement.order'].search([
 															#('type', 'in', ['product']),
@@ -48,8 +55,10 @@ class Container(models.Model):
 												],
 													#order='name asc',
 													#limit=1,
+													limit=self.limit,
 												)
 
+		count = 0
 		for procurement in procs:
 			#print()
 			#print(procurement)
@@ -58,9 +67,15 @@ class Container(models.Model):
 			#procurement.unlink()
 			procurement.state = 'cancel'
 		
+			count = count + 1
+
+			print(count)
+
+
 		print('Finished !')
 
 	# fix_procurements
+
 
 
 
@@ -72,13 +87,17 @@ class Container(models.Model):
 		"""
 		print('Fix stock moves')
 
+		print(self.limit)
+
 		# Search
 		moves = self.env['stock.move'].search([
 													#('x_name_short', 'in', [name]),
 												],
 												#order='date_begin asc',
 												#limit=10,
+												limit=self.limit,
 											)
+		count = 0
 		for stock_move in moves:
 			#print()
 			#print(stock_move)
@@ -86,6 +105,11 @@ class Container(models.Model):
 			#print(stock_move.state)
 			#stock_move.unlink()
 			stock_move.state = 'cancel'
+
+			count = count + 1
+
+			print(count)
+
 
 		print('Finished !')
 
