@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from openerp import models, fields, api
-
 from openerp.addons.price_list.models.product import exc_prod
 
 class Container(models.Model):
@@ -10,11 +9,54 @@ class Container(models.Model):
 
 
 
-# ----------------------------------------------------------- Reproduce Errors ------------------------
+# ----------------------------------------------------------- Fields ------------------------
 
 	name = fields.Char()
 
 	limit = fields.Integer()
+
+
+
+
+
+# ----------------------------------------------------------- Fix Order Treatments ------------------------
+
+	@api.multi
+	def fix_treatment(self):
+		"""
+		Fix Orders Treatment
+		"""
+		print()
+		print('Fix Orders Treatment')
+
+
+		# Search
+		orders = self.env['sale.order'].search([
+													#('type', 'in', ['product']),
+													#('sale_ok', 'in', [True]),
+
+													('treatment', 'in', [False]),
+												],
+													order='date_order desc',
+													limit=self.limit,
+												)
+		print(orders)
+
+		count = 0
+
+		for order in orders:
+
+			#if order.treatment in [False]:
+
+			order.fix_treatment()
+
+			count = count + 1
+
+
+		print(count)
+
+
+
 
 
 

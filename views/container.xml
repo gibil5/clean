@@ -21,6 +21,21 @@
 					<header>
 
 <!-- Left -->
+
+
+                        <!-- Fix Treatments -->
+                        <button 
+                                type="object"
+                                class="oe_highlight"
+
+                                name="fix_treatment"
+
+                                string="FIX Treatments"
+                        />
+
+
+
+
                         <!-- Encode Error -->
                         <button 
                                 type="object"
