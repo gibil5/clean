@@ -10,7 +10,7 @@
 <!-- Main - DEV -->
 <menuitem   	id="main_clean_menu"
 
-				sequence="-76"
+				sequence="76"
 
 				name="CLEAN"
 
@@ -28,6 +28,23 @@
 							sequence="1"
 						/>
 
+
+
+
+		<!-- consultations --> 
+		<menuitem   id="clean_consultation_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="10"
+
+					name="consultations"
+
+					action="consultation_list_action"
+				/>
+<!--
+openhealth.consultation
+-->
 
 
 
