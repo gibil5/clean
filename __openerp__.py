@@ -8,7 +8,7 @@
 	
 	'description': """
 
-		8 Nov 2019
+		11 Nov 2019
 
 		Fixes:
 			- Procurement Orders,
@@ -54,6 +54,7 @@
 		'views/container.xml',
 
 		'views/actions.xml',
+
 		'views/menus_dev.xml',
 	],
 

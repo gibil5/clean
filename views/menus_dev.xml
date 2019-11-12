@@ -31,12 +31,30 @@
 
 
 
+		<!-- orders --> 
+		<menuitem   id="clean_order_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="11"
+
+					name="orders"
+
+					action="order_list_action"
+				/>
+<!--
+sale.order
+-->
+
+
+
+
 		<!-- consultations --> 
 		<menuitem   id="clean_consultation_menu"
 
 					parent="parent_clean_menu"
 			
-					sequence="10"
+					sequence="13"
 
 					name="consultations"
 
@@ -53,7 +71,7 @@ openhealth.consultation
 
 					parent="parent_clean_menu"
 			
-					sequence="11"
+					sequence="14"
 
 					name="Containers"
 
