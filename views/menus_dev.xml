@@ -134,6 +134,24 @@ product.template
 
 
 
+		<!-- Management --> 
+		<menuitem   id="clean_management_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="19"
+
+					name="Management"
+
+					action="management_list_action"
+				/>
+<!--
+product.template
+-->
+
+
+
+
 
 
 	</data>
