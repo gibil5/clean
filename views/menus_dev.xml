@@ -146,10 +146,59 @@ product.template
 					action="management_list_action"
 				/>
 <!--
-product.template
+openhealth.management
 -->
 
 
+
+
+		<!-- Productivity Day --> 
+		<menuitem   id="clean_productivity_day_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="21"
+
+					name="Productivity Day"
+
+					action="productivity_day_list_action"
+				/>
+<!--
+productivity.day
+-->
+
+
+		<!-- Doctor Daily --> 
+		<menuitem   id="clean_doctor_daily_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="23"
+
+					name="Doctor Daily"
+
+					action="doctor_daily_list_action"
+				/>
+<!--
+productivity.day
+-->
+
+
+
+		<!-- Management Order Line --> 
+		<menuitem   id="clean_mgt_order_line_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="25"
+
+					name="Mgt Order Line"
+
+					action="mgt_order_line_list_action"
+				/>
+<!--
+openhealth.management.order.line
+-->
 
 
 

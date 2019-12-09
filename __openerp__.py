@@ -8,7 +8,7 @@
 	
 	'description': """
 
-		7 Dec 2019
+		9 Dec 2019
 
 		Fixes:
 			- Procurement Orders,
@@ -35,7 +35,8 @@
 	#'depends': ['base'],
 	#'depends': ['base', 'hr'],
     #'depends': ['base', 'oehealth'],
-    'depends': ['base', 'oehealth', 'openhealth'],
+    #'depends': ['base', 'oehealth', 'openhealth'],
+    'depends': ['base', 'oehealth', 'openhealth', 'price_list'],
 
 
 
@@ -56,6 +57,10 @@
 		'views/actions.xml',
 
 		'views/menus_dev.xml',
+
+
+		'views/productivity_day.xml',
+		'views/doctor_daily.xml',
 	],
 
 

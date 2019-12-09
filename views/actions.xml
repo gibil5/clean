@@ -4,6 +4,71 @@
 
 
 
+
+        <!-- Mgt Order Line --> 
+        <record model="ir.actions.act_window" id="mgt_order_line_list_action">
+
+            <field name="name">Mgt Order Line</field>
+
+            <field name="res_model">openhealth.management.order.line</field>
+
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
+
+
+        <!-- Doctor Daily --> 
+        <record model="ir.actions.act_window" id="doctor_daily_list_action">
+
+            <field name="name">Productivity Day</field>
+
+            <field name="res_model">doctor.daily</field>
+
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
+
+
+        <!-- Productivity Day --> 
+        <record model="ir.actions.act_window" id="productivity_day_list_action">
+
+            <field name="name">Productivity Day</field>
+
+            <field name="res_model">productivity.day</field>
+
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
+
+
+
         <!-- Management --> 
         <record model="ir.actions.act_window" id="management_list_action">
 

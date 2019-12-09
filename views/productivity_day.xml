@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+
+
+<!-- TREE --> 
+		<record model="ir.ui.view" id="productivity_day_view_tree">
+
+			<field name="name">.productivy.day.tree</field>
+
+			<field name="model">productivity.day</field>
+			
+			<field name="arch" type="xml">
+
+				<tree string="Productivity Tree">
+
+					<field name="name"/>
+
+					<field name="date"/>
+
+					<field name="weekday"/>
+
+					<field name="duration"/>
+
+					<field name="management_id"/>
+
+
+
+					<!-- Cumulative -->
+					<field name="cumulative"/>
+					<field name="nr_days"/>
+					<field name="nr_days_total"/>
+	 
+
+	 
+					<!-- Average -->
+					<field name="avg_amount"/>
+					<field name="projection"/>
+
+
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</openerp>
+
+

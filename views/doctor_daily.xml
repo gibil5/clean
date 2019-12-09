@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+
+
+
+<!-- TREE --> 
+		<record model="ir.ui.view" id="doctor_daily_view_tree">
+
+			<field name="name">price_list.doctor.daily</field>
+
+			<field name="model">doctor.daily</field>
+			
+			<field name="arch" type="xml">
+
+				<tree string="Productivity Tree">
+
+
+					<field name="date"/>
+
+					<field name="management_id"/>
+
+					<field name="doctor_id"/>
+
+					<field name="order_line"/>
+
+
+					<field name="weekday"/>
+					<field name="duration"/>
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</openerp>
+
+

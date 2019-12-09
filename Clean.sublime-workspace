@@ -523,7 +523,7 @@
 			"file": "__openerp__.py",
 			"settings":
 			{
-				"buffer_size": 1120,
+				"buffer_size": 1247,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,25 @@
 			"file": "views/menus_dev.xml",
 			"settings":
 			{
-				"buffer_size": 1747,
+				"buffer_size": 2694,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/doctor_daily.xml",
+			"settings":
+			{
+				"buffer_size": 542,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/productivity_day.xml",
+			"settings":
+			{
+				"buffer_size": 727,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,8 +559,25 @@
 			"file": "views/actions.xml",
 			"settings":
 			{
-				"buffer_size": 3884,
+				"buffer_size": 6521,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/management.xml",
+			"settings":
+			{
+				"buffer_size": 903,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/order.xml",
+			"settings":
+			{
+				"buffer_size": 527,
 				"line_ending": "Unix"
 			}
 		},
@@ -558,7 +593,7 @@
 			"file": "readme.txt",
 			"settings":
 			{
-				"buffer_size": 40,
+				"buffer_size": 38,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -586,15 +621,6 @@
 			"settings":
 			{
 				"buffer_size": 7395,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/management.xml",
-			"settings":
-			{
-				"buffer_size": 903,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -682,6 +708,7 @@
 	},
 	"file_history":
 	[
+		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/untitled",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/actions.xml",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/views/menus_dev.xml",
 		"/Users/gibil/Virtualenvs/Odoo9-min/odoo/addons/clean/models/__init__.py",
@@ -808,8 +835,7 @@
 		"/Users/gibil/cellar/github/price_list/models/electronic/pl_acc_lib.py",
 		"/Users/gibil/cellar/github/price_list/models/electronic/acc_lib.py",
 		"/Users/gibil/cellar/github/price_list/views/product/pricelist_container.xml",
-		"/Users/gibil/cellar/github/price_list/views/product/pricelist_container.TRASH.xml",
-		"/Users/gibil/cellar/github/price_list/views/order/order.xml"
+		"/Users/gibil/cellar/github/price_list/views/product/pricelist_container.TRASH.xml"
 	],
 	"find":
 	{
@@ -859,7 +885,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -868,15 +894,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1120,
+						"buffer_size": 1247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								1161,
+								1161
 							]
 						],
 						"settings":
@@ -886,10 +912,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 522.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -898,15 +924,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1747,
+						"buffer_size": 2694,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								508,
-								525
+								2632,
+								2632
 							]
 						],
 						"settings":
@@ -915,27 +941,85 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 494.0,
+						"translation.y": 2888.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "views/actions.xml",
+					"file": "views/doctor_daily.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3884,
+						"buffer_size": 542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								46
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/productivity_day.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/actions.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
 							]
 						],
 						"settings":
@@ -952,7 +1036,65 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
+					"file": "views/management.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								883,
+								903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/order.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "views/menus_dev.TRASH.xml",
 					"semi_transient": false,
 					"settings":
@@ -977,24 +1119,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "readme.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 40,
+						"buffer_size": 38,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								38,
+								38
 							]
 						],
 						"settings":
@@ -1005,11 +1147,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "models/container.py",
 					"semi_transient": false,
 					"settings":
@@ -1034,11 +1176,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "views/container.xml",
 					"semi_transient": false,
 					"settings":
@@ -1064,11 +1206,11 @@
 						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": "models/management.py",
 					"semi_transient": false,
 					"settings":
@@ -1093,40 +1235,11 @@
 						"translation.y": 4609.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "views/management.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								673,
-								673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "views/manager.TRASH.xml",
 					"semi_transient": false,
 					"settings":
@@ -1151,7 +1264,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
