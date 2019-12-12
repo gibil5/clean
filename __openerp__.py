@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-	'name': "CLEAN - 2019 - SERVICE ORIENTED",
+	'name': "Clean - 2019 - SERVICE ORIENTED - ODOO 9 MODULE",
 
 	'summary': """
         Clean for the Openhealth System
@@ -8,7 +8,7 @@
 	
 	'description': """
 
-		9 Dec 2019
+		12 Dec 2019
 
 		Fixes:
 			- Procurement Orders,
