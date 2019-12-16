@@ -4,6 +4,25 @@
 
 
 
+        <!-- Mkt Origin --> 
+        <record model="ir.actions.act_window" id="mkt_origin_list_action">
+
+            <field name="name">Mkt Origin</field>
+
+            <field name="res_model">openhealth.marketing.origin</field>
+
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first receipt
+                </p>
+            </field>
+        </record>
+
+
 
         <!-- Mgt Order Line --> 
         <record model="ir.actions.act_window" id="mgt_order_line_list_action">

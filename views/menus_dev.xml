@@ -202,6 +202,22 @@ openhealth.management.order.line
 
 
 
+		<!-- Mkt Origin --> 
+		<menuitem   id="clean_mkt_origin_menu"
+
+					parent="parent_clean_menu"
+			
+					sequence="31"
+
+					name="Mkt Origin"
+
+					action="mkt_origin_list_action"
+				/>
+<!--
+openhealth.marketing.origin
+-->
+
+
 
 	</data>
 </openerp>
